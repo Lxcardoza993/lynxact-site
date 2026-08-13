@@ -1,0 +1,22 @@
+# Node dependencies (static site, no build step — reserved)
+node_modules/
+
+# Python test/coverage artifacts (a stray .coverage was found untracked)
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
+!.env.example

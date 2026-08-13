@@ -140,6 +140,18 @@ body {
   padding: 168px 24px 96px;
 }
 .hero-inner { max-width: 880px; margin: 0 auto; }
+
+/* 404 / error pages: full-viewport centered, no scroll-triggered reveal. */
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 24px;
+  text-align: center;
+}
+.error-page .hero-cta { justify-content: center; }
 .eyebrow {
   font-family: var(--mono);
   font-size: 12.5px;

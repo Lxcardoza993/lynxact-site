@@ -49,6 +49,17 @@ body {
   top: 1rem;
 }
 
+/* High-contrast keyboard focus ring for every interactive element
+   (WCAG 2.4.7 Focus Visible). The browser default outline is low-
+   contrast on this dark theme; :where() keeps specificity 0 so it
+   composes with per-component styles instead of overriding them. */
+:where(a, button, .btn, .nav-cta, .lang-switch, .repo-card,
+       .lang-link, .back, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
 .pitch-bg {
   position: fixed;
   inset: 0;

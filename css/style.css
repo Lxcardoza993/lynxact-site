@@ -336,7 +336,8 @@ h2 {
   border-radius: var(--radius);
   overflow: hidden;
 }
-.demo-item img {
+.demo-item img,
+.demo-item video {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;

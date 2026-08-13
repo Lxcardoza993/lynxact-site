@@ -43,4 +43,4 @@ npx wrangler pages deploy . --project-name=lynxact-site
 
 ## License
 
-Website content © 2026 LynxFlow AI. Code MIT.
+Website content © 2026 LynxFlow AI. Code is MIT-licensed — see [LICENSE](LICENSE).

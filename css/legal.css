@@ -1,0 +1,12 @@
+/* LynxAct — legal/privacy page layout */
+.legal { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; padding: 148px 24px 96px; }
+.legal h1 { font-size: clamp(30px, 4.5vw, 44px); margin-bottom: 8px; }
+.legal .updated { color: var(--text-dim); font-size: 14px; margin-bottom: 40px; }
+.legal h2 { font-size: 21px; margin: 36px 0 12px; }
+.legal p, .legal li { color: var(--text-dim); font-size: 15.5px; }
+.legal ul { padding-left: 22px; margin-top: 10px; }
+.legal a { color: var(--accent); }
+.legal .back { display: inline-block; margin-bottom: 32px; color: var(--text-dim); text-decoration: none; font-size: 14px; }
+.legal .back:hover { color: var(--text); }
+.legal .lang-link { float: right; color: var(--text-dim); text-decoration: none; font-size: 14px; }
+.legal .lang-link:hover { color: var(--accent); }

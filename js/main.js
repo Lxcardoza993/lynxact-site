@@ -13,6 +13,16 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 
+  // Respect prefers-reduced-motion: don't autoplay looping demo videos.
+  // The video keeps its controls so the user can play on demand instead.
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.querySelectorAll("video[autoplay]").forEach(function (v) {
+      v.autoplay = false;
+      v.loop = false;
+      v.pause();
+    });
+  }
+
   var revealEls = document.querySelectorAll(".reveal");
   if (!("IntersectionObserver" in window)) {
     revealEls.forEach(function (el) { el.classList.add("visible"); });

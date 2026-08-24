@@ -12,22 +12,26 @@
   <link rel="stylesheet" href="css/style.css">
   <style>
     .legal { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; padding: 148px 24px 96px; }
+    .legal-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px; }
     .legal h1 { font-size: clamp(30px, 4.5vw, 44px); margin-bottom: 8px; }
     .legal .updated { color: var(--text-dim); font-size: 14px; margin-bottom: 40px; }
     .legal h2 { font-size: 21px; margin: 36px 0 12px; }
     .legal p, .legal li { color: var(--text-dim); font-size: 15.5px; }
     .legal ul { padding-left: 22px; margin-top: 10px; }
     .legal a { color: var(--accent); }
-    .legal .back { display: inline-block; margin-bottom: 32px; color: var(--text-dim); text-decoration: none; font-size: 14px; }
+    .legal .back { color: var(--text-dim); text-decoration: none; font-size: 14px; }
     .legal .back:hover { color: var(--text); }
-    .legal .lang-link { float: right; color: var(--text-dim); text-decoration: none; font-size: 14px; }
+    .legal .lang-link { color: var(--text-dim); text-decoration: none; font-size: 14px; }
     .legal .lang-link:hover { color: var(--accent); }
   </style>
 </head>
 <body>
   <main class="legal">
-    <a class="lang-link" href="/zh/privacy.html" hreflang="zh-CN">中文</a>
-    <a class="back" href="index.html">← Back to lynxact.lxlynx.com</a>
+    <div class="legal-nav">
+      <a class="back" href="index.html" aria-label="Back to LynxAct homepage">← Back to lynxact.lxlynx.com</a>
+      <a class="lang-link" href="/zh/privacy.html" hreflang="zh-CN">中文</a>
+    </div>
+
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: August 5, 2026</p>
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lynxact.lxlynx.com/sitemap.xml
+Sitemap: https://act.lynxflow.co/sitemap.xml

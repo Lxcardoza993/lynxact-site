@@ -1,6 +1,6 @@
 # LynxAct — Official Website
 
-Source code of [lynxact.lxlynx.com](https://lynxact.lxlynx.com), the official site of **LynxAct**, an AI-powered sports video intelligence product line built by **LynxFlow AI**.
+Source code of [act.lynxflow.co](https://act.lynxflow.co), the official site of **LynxAct**, an AI-powered sports video intelligence product line built by **LynxFlow AI**.
 
 ## What is LynxAct?
 
@@ -39,7 +39,7 @@ npx wrangler pages deploy . --project-name=lynxact-site
 
 ## 中文简介
 
-本仓库是 LynxAct 官网（lynxact.lxlynx.com）的源码。LynxAct 是 LynxFlow AI 旗下的体育视频智能分析产品线：技战术标注、AI 教练 Agent、球员追踪。纯静态站，Cloudflare Pages 部署。
+本仓库是 LynxAct 官网（act.lynxflow.co）的源码。LynxAct 是 LynxFlow AI 旗下的体育视频智能分析产品线：技战术标注、AI 教练 Agent、球员追踪。纯静态站，Cloudflare Pages 部署。
 
 ## License
 

@@ -10,7 +10,7 @@
 
 | 决策 | 结论 | 理由 |
 |------|------|------|
-| 域名 | lynxact.lxlynx.com | 裸域被 ailynx 工具集占用；qzz.io 免费域名审核可信度低；不买新域名 |
+| 域名 | act.lynxflow.co | 裸域被 ailynx 工具集占用；qzz.io 免费域名审核可信度低；不买新域名 |
 | 部署 | CF Pages 项目 lynxact-site，wrangler 直接部署 | 用户 wrangler 工作流成熟；Git 集成可后补 |
 | GitHub 门面 | 组织 github.com/lynxact（名字可用） | 公司气质；转移后旧 URL 自动 301 |
 | 内容原则 | 零造假 | 全部数据来自真实 spike（98.7% Stanford40、0.62–1.25m 标定、62 技术卡、95.7% 帧≥8人） |
@@ -25,5 +25,5 @@
 ## 已知待办
 
 - 组织建好后：转移 lynxact-coach/lynxmove-oss/lynxact-site → 官网 GitHub 链接升级为组织 URL 重新部署
-- Email Routing founder@lxlynx.com → Gmail：CF token 无 Email Routing 写权限，需 dashboard 手动
+- Email Routing founder@lynxflow.co → Gmail：CF token 无 Email Routing 写权限，需 dashboard 手动
 - GOAI 提交材料（8/16 前）里的仓库链接在转移后需更新为新 URL

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
 <style>.ln{stroke:#0b0c0e}@media(prefers-color-scheme:dark){.ln{stroke:#f2efe9}}</style>
-<g class="ln" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+<g class="ln" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
 <path d="M50,10 L85,30 L85,70 L50,90 L15,70 L15,30 Z"/>
 <path d="M50,50 L15,30 M50,50 L85,30 M50,50 L50,90"/>
-<path d="M50,50 L50,10 M50,50 L85,70 M50,50 L15,70" stroke-width="6"/>
-<circle cx="50" cy="50" r="13" stroke-width="6"/>
+<path d="M50,50 L50,10 M50,50 L85,70 M50,50 L15,70" stroke-width="5"/>
+<circle cx="50" cy="50" r="13" stroke-width="5"/>
 </g>
 <circle cx="50" cy="50" r="5" fill="#f0a028"/>
 </svg>

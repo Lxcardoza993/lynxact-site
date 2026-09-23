@@ -41,6 +41,13 @@ npx wrangler pages deploy . --project-name=lynxact-site
 
 本仓库是 LynxAct 官网（act.lynxflow.co）的源码。LynxAct 是 LynxFlow AI 旗下的体育视频智能分析产品线：技战术标注、AI 教练 Agent、球员追踪。纯静态站，Cloudflare Pages 部署。
 
+---
+
+## Follow / 关注
+
+- 📰 **AI / Tech daily news** (Chinese): Telegram channel [t.me/Lx_groups](https://t.me/Lx_groups) — [public preview](https://t.me/s/Lx_groups)
+- ✍️ **Blog** (deep dives): [blog.lynxflow.co](https://blog.lynxflow.co)
+
 ## License
 
 Website content © 2026 LynxFlow AI. Code is MIT-licensed — see [LICENSE](LICENSE).
